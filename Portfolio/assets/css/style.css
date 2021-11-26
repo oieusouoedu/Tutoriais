@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+header .logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header .menu{
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header .menu-line{
+  height: 3px;
+  background-color: #333;
+}
+
+
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.container .leftside{
+  background-color: #3b576d;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.container .rightside{
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center top;
+  flex: 1;
+}
+
+.container .info{
+  color: #fff;
+}
+
+.profession{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.buttons a{
+  display: inline-block;
+  background-color: #fff;
+  color: #3b576d;
+  padding: 20px 40px;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px #111;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.buttons a.light{
+  color: #fff;
+  background-color: #3b576d;
+}
+
+.buttons a:hover{
+  opacity: 0.8;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  color: #fff;
+  font-size: 13px;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+i{
+  color: red;
+}
+
+@media (max-width: 931px){
+  header{
+    position: initial;
+    background-color: #3b576d;
+  }
+
+  header .menu-line{
+    background-color: #fff;
+  }
+
+  .container{
+    flex-direction: column;
+    height: calc(100vh - 66.4px);
+  }
+  .container .leftside{
+    flex: none;
+    padding: 30px 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer{
+    position: initial;
+    background-color: #3b576d;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px){
+  .info .name{
+    font-size: 50px;
+  }
+
+  .info .buttons a{
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
