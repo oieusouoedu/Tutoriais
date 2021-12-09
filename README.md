@@ -8,3 +8,4 @@
 * [CSS Menu Curvo](https://www.youtube.com/watch?v=ArTVfdHOB-M)
 * [CSS Menu Curvo 2](https://www.youtube.com/watch?v=a3rofqqrTBE)
 * [Simple Radial Menu](https://www.youtube.com/watch?v=ShPPkZEeLPo)
+* [FrontEnd Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) - Desafio da página "FrontEnd Mentor" para criar uma "Preview Card" em 3 colunas e que seja responsivo a telas menores.
