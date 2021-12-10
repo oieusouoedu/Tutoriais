@@ -96,10 +96,35 @@ a{
     color: #00403f;
 }
 
+@media (max-width:1151px){
+    .desc{
+        margin-top: -30px;
+    }
+}
+
+@media (max-width:1122px){
+    .desc{
+        margin-top: -30px;
+    }
+}
+
+@media (max-width:1022px){
+    .desc{
+        margin-top: -30px;
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 970px){
     .title{
         font-size: 20px;
     }
+    .desc{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:821px){
     .desc{
         font-size: 15px;
     }
