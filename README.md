@@ -1,6 +1,6 @@
 # Tutoriais
 
-### Repositório com projetos feitos seguindo diversos tutoriais no Youtube
+### Repositório com projetos feitos seguindo diversos tutoriais no Youtube e/ou outros sites
 
 * [Formulário 1](https://www.youtube.com/watch?v=VCsNIRXNsmY)
 * [Formulário 2](https://www.youtube.com/watch?v=oCG2H_g-Jm8)
