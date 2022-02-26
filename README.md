@@ -9,5 +9,4 @@
 * [CSS Menu Curvo 2](https://www.youtube.com/watch?v=a3rofqqrTBE)
 * [Simple Radial Menu](https://www.youtube.com/watch?v=ShPPkZEeLPo)
 * [FrontEnd Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) - Desafio da página "FrontEnd Mentor" para criar um "Preview Card" em 3 colunas e que seja responsivo a telas menores.
-* [2022](https://www.youtube.com/watch?v=i8t2ANI8Qyo&t=304s) - Projeto com animações usando CSS com tema natalino
-* [E-commerce](https://www.youtube.com/watch?v=yNm4Fe6m8yw) - Projeto de um E-commerce de sapatos
+* [2022](https://www.youtube.com/watch?v=i8t2ANI8Qyo&t=304s) - Projeto com animações usando CSS com tema natalino.
