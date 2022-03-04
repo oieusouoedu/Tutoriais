@@ -10,3 +10,4 @@
 * [Simple Radial Menu](https://www.youtube.com/watch?v=ShPPkZEeLPo)
 * [FrontEnd Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) - Desafio da página "FrontEnd Mentor" para criar um "Preview Card" em 3 colunas e que seja responsivo a telas menores.
 * [2022](https://www.youtube.com/watch?v=i8t2ANI8Qyo&t=304s) - Projeto com animações usando CSS com tema natalino.
+* [E-Commerce](https://www.youtube.com/playlist?list=PL9bD98LkBR7P8MYh0RzNSHgeVNTA8g0nB) - Projeto de E-commerce responsivo feito com html, css e javascript.
