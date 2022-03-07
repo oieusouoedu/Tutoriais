@@ -19,7 +19,7 @@ body{
 }
 
 form{
-    width: 200px;
+    width: 250px;
     margin: 20px auto;
 }
 
@@ -28,10 +28,14 @@ input{
     padding: 10px;
 }
 
+input::placeholder{
+    font-size: 11px;
+}
+
 .poke-card{
     position: relative;
     height: fit-content;
-    max-width: 300px;
+    max-width: 280px;
     border-radius: 4px;
     color: #000;
     text-align: center;
@@ -76,6 +80,45 @@ input{
 }
 
 .poke-img{
-    width: 180px;
+    width: 150px;
     border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .insta{
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
+
+footer .insta:hover{
+    color: #bc2a8d
+}
+
+footer .telegram{
+    transition: 0.3s ease;
+}
+
+footer .telegram:hover{
+    color: #229ed9;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 376px){
+    form{
+        margin: 10px auto;
+    }
+
+    .poke-stats div{
+        font-size: 16px;
+    }
 }

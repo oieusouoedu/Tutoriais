@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4968d65095.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/assets/Pokeball.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="title"><p>Pesquise pelo nome ou número do pokemon</p></div>
+    
     <form action="" onsubmit="searchPokemon(event)">
-        <input type="text" name="pokemon" autocomplete="off">
+        <input type="text" name="pokemon" autocomplete="off" placeholder="Pesquise pelo nome ou número do pokemon">
     </form>
     <div data-poke-card class="poke-card">
         <div data-poke-name>Pokedex</div>
@@ -21,6 +23,11 @@
         <div data-poke-types class="poke-types"></div>
         <div data-poke-stats class="poke-stats"></div>
     </div>
+
+    <footer>
+        <a class="insta" href="https://www.instagram.com/_oieusouoedu_/" target="_blank"><i class="fab fa-instagram"></i> @_oieusouoedu_</a>
+        <a class="telegram" href="https://t.me/oieusouoeduu" target="_blank"><i class="fab fa-telegram-plane"></i> @oieusouoeduu</a>
+    </footer>
 
 
     <script src="script.js"></script>
